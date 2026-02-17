@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Circular-Std", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.app-pl {
+    padding-left: clamp(1em, 5vw, 101px);
+}
+
+.app-pr {
+    padding-right: clamp(1em, 5vw, 45px);
+}
+
+
+// debugging classes
+.border-red,
+.border-blue {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-red {
+    border-color: red;
+}
+
+.border-blue {
+    border-color: blue;
+}

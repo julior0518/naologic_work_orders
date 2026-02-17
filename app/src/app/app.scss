@@ -1,0 +1,15 @@
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #ffffff;
+
+    .header {
+        height: 50px;
+    }
+
+    .body {
+        flex: 1
+    }
+}
